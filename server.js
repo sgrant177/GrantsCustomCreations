@@ -8,12 +8,12 @@ const users = require("./routes/api/users");
 const app = express();
 
 // Bodyparser middleware
-app.use(
-  bodyParser.urlencoded({
-    extended: false
-  })
-);
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 // DB Config
 const db = require("./config/keys").mongoURI;
