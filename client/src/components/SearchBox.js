@@ -29,7 +29,7 @@ const SearchBox = ({ history }) => {
           </Form>
         </div>
         <div className="col-4">
-          <Button id="searchButton" type='submit' className="primary">
+          <Button id="searchButton" type='submit' className="btn-secondary">
             Search
          </Button>
         </div>

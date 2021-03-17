@@ -34,6 +34,19 @@
     text-align: center;
 }
 
+#productCard {
+    text-align: center;
+}
+.dropdown-item {
+    color: white;
+}
+.dropdown-menu {
+    background-color: rgb(33,37,41);
+    max-width: min-content;
+    text-align: center;
+    font-size: large;
+}
+
 @media only screen and (max-width:1920px) {
     #ggcheader {
         background-image: url("./assets/ggcbackground.jpg");
@@ -59,7 +72,7 @@
         margin-left: -20%;
     }
     .navbar-nav {
-        margin-right: -20%;
+        margin-right: -17%;
     }
     #searchBox {
         margin-left: -5%;
