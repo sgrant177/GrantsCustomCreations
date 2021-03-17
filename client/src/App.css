@@ -1,0 +1,67 @@
+#username, #adminmenu, #shoppingcart {
+    color: white;
+}
+
+#username.dropdown-toggle.nav-link::after, #adminmenu.dropdown-toggle.nav-link::after {
+    display: none;
+}
+
+#navBrand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    width: 100%;
+}
+
+#title {
+    padding-top: 20rem;
+    padding-left: 20rem;
+}
+
+#ggcName {
+    font-size: 3.5rem;
+    color: white;
+}
+
+#shopNow {
+    color: white;
+    font-size: 2rem;
+}
+
+#latestProducts {
+    text-align: center;
+}
+
+@media only screen and (max-width:1920px) {
+    #ggcheader {
+        background-image: url("./assets/ggcbackground.jpg");
+        margin-left: -22.33%;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        width: 144.5%;
+        height: 60rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #productCarousel{
+        width: 100%;
+    }
+
+    #productsList {
+        width: 120%;
+        margin-left: -10%;
+    }
+    #navBrand {
+        margin-left: -20%;
+    }
+    .navbar-nav {
+        margin-right: -20%;
+    }
+    #searchBox {
+        margin-left: -5%;
+    }
+}
