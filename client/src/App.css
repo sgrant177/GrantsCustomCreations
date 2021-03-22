@@ -60,6 +60,11 @@
         background-size: cover;
     }
 
+    #carouselImages {
+        width: 50rem;
+        height: 30rem;
+    }
+
     #productCarousel{
         width: 100%;
     }
@@ -77,4 +82,5 @@
     #searchBox {
         margin-left: -5%;
     }
+
 }

@@ -57,6 +57,11 @@ const Header = () => {
                   </LinkContainer>
                 </NavDropdown>
               )}
+              <LinkContainer to='/gallery'>
+                <Nav.Link id="shoppingcart">
+                  Gallery
+                </Nav.Link>
+              </LinkContainer>
               <LinkContainer to='/cart'>
                 <Nav.Link id="shoppingcart">
                   <i className='fas fa-shopping-cart'></i> Cart
